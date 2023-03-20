@@ -24,7 +24,7 @@ def findEncodings(images):
         encode = face_recognition.face_encodings(img)[0]
         encodeList.append(encode)
     return encodeList
-1
+
 def markAttendance(name):
     with open("Attendance.csv", "r+") as f:
         myDataList = f.readlines()
